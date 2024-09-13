@@ -1,5 +1,6 @@
-import { Link, routes } from '@redwoodjs/router'
 import { Metadata } from '@redwoodjs/web'
+
+import { Card } from 'src/base-ui/components/ui/card'
 
 const HomePage = () => {
   return (
@@ -12,7 +13,7 @@ const HomePage = () => {
       </p>
       <p>
         My default route is named <code>home</code>, link to me with `
-        <Link to={routes.home()}>Home</Link>`
+        <Card>hello</Card>
       </p>
     </>
   )
